@@ -1,0 +1,50 @@
+
+video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.header{
+    width: 70%;
+    margin: 0.4px auto;
+    padding: 5px 0px;
+    background-color: #fff;   
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+   text-align: center;
+   font-size: 16px;
+    overflow: hidden;
+}
+.outside{
+    width: 90%;
+    margin: 0px auto;
+     overflow: hidden;
+     transition: 2.5s;
+}
+.outside .div1{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+      
+}
+.outside .div2{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+     
+}
+div h1{
+   margin: 0px;
+   padding: 0px;
+}
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
