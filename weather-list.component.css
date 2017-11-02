@@ -1,0 +1,14 @@
+.container {
+  margin: 35px auto;
+  width: 45%;
+  height: 80%;
+  overflow: auto;
+
+
+}
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: gray;
+  border-radius: 5px;
+  padding-top: 10px;
+}
