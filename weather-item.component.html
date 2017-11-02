@@ -1,0 +1,10 @@
+<div class="outside">
+  <div class="div1">
+   <h3>{{weatherItem.cityName}}</h3>
+   <P> {{weatherItem.description}}</P>
+  </div>
+  <div class="div2">
+    <span>{{weatherItem.temperature}}<sup>o</sup>C</span>
+  </div>
+  <div class="close" (click)="onClick(weatherItem)">X</div>
+</div>
