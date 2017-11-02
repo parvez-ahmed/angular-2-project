@@ -1,0 +1,8 @@
+<div class="weather-search">
+   <form #userForm="ngForm" (ngSubmit)="onClick(userForm)">
+     <label for="city">City</label>
+     <input type="text" id="city" required name="cityName" ngModel [placeholder]="userForm.invalid ? 'please enter city name':''">
+     <button [disabled]="userForm.invalid">Add City</button>
+   </form>
+ 
+</div>
